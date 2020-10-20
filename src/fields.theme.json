@@ -1,0 +1,230 @@
+[
+    {
+        "label": "Layout",
+        "name": "layout",
+        "type": "group",
+        "children": [
+            {
+                "label": "Container width",
+                "name": "containerWidth",
+                "type": "number",
+                "default": 1200
+            },
+            {
+                "label": "Gutters width",
+                "name": "guttersWidth",
+                "type": "number",
+                "default": 15
+            }
+        ]
+    },
+    {
+        "label": "Accent colors",
+        "name": "accentColors",
+        "type": "group",
+        "children": [
+            {
+                "label": "Primary",
+                "name": "primary",
+                "type": "color",
+                "default": {
+                    "color": "#0049ff"
+                }
+            }
+        ]
+    },
+    {
+        "label": "Typography",
+        "name": "typography",
+        "type": "group",
+        "children": [
+            {
+                "label": "Global font style",
+                "name": "globalFontStyle",
+                "type": "font",
+                "visibility": {
+                    "hidden_subfields": {
+                        "styles": true,
+                        "size_unit": true
+                    }
+                },
+                "default": {
+                    "font": "Helvetica",
+                    "size": 16,
+                    "variant": "400",
+                    "color": "#b7b7b7"
+                }
+            },
+            {
+                "label": "H1 font style",
+                "name": "h1FontStyle",
+                "type": "font",
+                "visibility": {
+                    "hidden_subfields": {
+                        "font": true,
+                        "styles": true,
+                        "size_unit": true
+                    }
+                },
+                "default": {
+                    "size": 30,
+                    "variant": "700",
+                    "color": "#b7b7b7"
+                }
+            },
+            {
+                "label": "H2 font style",
+                "name": "h2FontStyle",
+                "type": "font",
+                "visibility": {
+                    "hidden_subfields": {
+                        "font": true,
+                        "styles": true,
+                        "size_unit": true
+                    }
+                },
+                "default": {
+                    "size": 26,
+                    "variant": "700",
+                    "color": "#b7b7b7"
+                }
+            },
+            {
+                "label": "H3 font style",
+                "name": "h3FontStyle",
+                "type": "font",
+                "visibility": {
+                    "hidden_subfields": {
+                        "font": true,
+                        "styles": true,
+                        "size_unit": true
+                    }
+                },
+                "default": {
+                    "size": 24,
+                    "variant": "700",
+                    "color": "#b7b7b7"
+                }
+            },
+            {
+                "label": "H4 font style",
+                "name": "h4FontStyle",
+                "type": "font",
+                "visibility": {
+                    "hidden_subfields": {
+                        "font": true,
+                        "styles": true,
+                        "size_unit": true
+                    }
+                },
+                "default": {
+                    "size": 22,
+                    "variant": "700",
+                    "color": "#b7b7b7"
+                }
+            },
+            {
+                "label": "H5 font style",
+                "name": "h5FontStyle",
+                "type": "font",
+                "visibility": {
+                    "hidden_subfields": {
+                        "font": true,
+                        "styles": true,
+                        "size_unit": true
+                    }
+                },
+                "default": {
+                    "size": 20,
+                    "variant": "700",
+                    "color": "#b7b7b7"
+                }
+            },
+            {
+                "label": "H6 font style",
+                "name": "h6FontStyle",
+                "type": "font",
+                "visibility": {
+                    "hidden_subfields": {
+                        "font": true,
+                        "styles": true,
+                        "size_unit": true
+                    }
+                },
+                "default": {
+                    "size": 18,
+                    "variant": "700",
+                    "color": "#b7b7b7"
+                }
+            }
+        ]
+    },
+    {
+        "label": "CTAs",
+        "name": "cta",
+        "type": "group",
+        "children": [
+            {
+                "label": "CTA 1",
+                "name": "cta1",
+                "type": "group",
+                "children": [
+                    {
+                        "label": "Border color",
+                        "name": "borderColor",
+                        "type": "color",
+                        "default": {
+                            "color": "#ed145b",
+                            "opacity": 100
+                        }
+                    },
+                    {
+                        "label": "Border color:hover",
+                        "name": "borderColorHover",
+                        "type": "color",
+                        "default": {
+                            "color": "#e41358",
+                            "opacity": 100
+                        }
+                    },
+                    {
+                        "label": "Background color",
+                        "name": "backgroundColor",
+                        "type": "color",
+                        "default": {
+                            "color": "#ed145b",
+                            "opacity": 100
+                        }
+                    },
+                    {
+                        "label": "Background color:hover",
+                        "name": "backgroundColorHover",
+                        "type": "color",
+                        "default": {
+                            "color": "#e41358",
+                            "opacity": 100
+                        }
+                    },
+                    {
+                        "label": "Text color",
+                        "name": "textColor",
+                        "type": "color",
+                        "default": {
+                            "color": "#ffffff",
+                            "opacity": 100
+                        }
+                    },
+                    {
+                        "label": "Text color:hover",
+                        "name": "textColorHover",
+                        "type": "color",
+                        "default": {
+                            "color": "#000000",
+                            "opacity": 100
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

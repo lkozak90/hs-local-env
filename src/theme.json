@@ -1,0 +1,7 @@
+{
+    "name": "local-project-2",
+    "label": "Local project test",
+    "preview_path": "./templates/page/me-001-Home 1.html",
+    "screenshot_path": "./img/thumbs/mercuric-theme-preview.png",
+    "enable_domain_stylesheets": false
+}

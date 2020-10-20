@@ -1,0 +1,56 @@
+[ {
+  "id" : "padding",
+  "name" : "padding",
+  "label" : "Padding",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "padding.top",
+    "name" : "top",
+    "label" : "Top",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "none", "Geen" ], [ "s", "Klein" ], [ "m", "Middel" ], [ "l", "Groot" ], [ "xl", "Extra groot" ], [ "xxl", "Enorm" ], [ "xxxl", "Extra enorm" ], [ "xxxxl", "Maximaal" ] ],
+    "type" : "choice",
+    "default" : "none"
+  }, {
+    "id" : "padding.bottom",
+    "name" : "bottom",
+    "label" : "Bottom",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "none", "Geen" ], [ "s", "Klein" ], [ "m", "Middel" ], [ "l", "Groot" ], [ "xl", "Extra groot" ], [ "xxl", "Enorm" ], [ "xxxl", "Extra enorm" ], [ "xxxxl", "Maximaal" ] ],
+    "type" : "choice",
+    "default" : "none"
+  }, {
+    "id" : "padding.mobile_top",
+    "name" : "mobile_top",
+    "label" : "Mobiel: Top",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "desktop", "Desktop instellingen" ], [ "none", "Geen" ], [ "s", "Klein" ], [ "m", "Middel" ], [ "l", "Groot" ], [ "xl", "Extra groot" ], [ "xxl", "Enorm" ], [ "xxxl", "Extra enorm" ], [ "xxxxl", "Maximaal" ] ],
+    "type" : "choice",
+    "default" : "desktop"
+  }, {
+    "id" : "padding.mobile_bottom",
+    "name" : "mobile_bottom",
+    "label" : "Mobiel: Bottom",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "desktop", "Desktop instellingen" ], [ "none", "Geen" ], [ "s", "Klein" ], [ "m", "Middel" ], [ "l", "Groot" ], [ "xl", "Extra groot" ], [ "xxl", "Enorm" ], [ "xxxl", "Extra enorm" ], [ "xxxxl", "Maximaal" ] ],
+    "type" : "choice",
+    "default" : "desktop"
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : {
+    "top" : "none",
+    "bottom" : "none",
+    "mobile_top" : "desktop",
+    "mobile_bottom" : "desktop"
+  }
+} ]

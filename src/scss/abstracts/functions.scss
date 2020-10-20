@@ -1,0 +1,11 @@
+// Set default value for $context as variable in fields.json
+// Variable will be generated in SCSS version inside scss/generated/hsVariables.scss
+$remBase: $globalFontSize;
+
+@function rem($pixels, $context: $remBase) {
+  @return #{($pixels/$context)}rem;
+}
+
+@function hubl_rgba($variable, $alpha) {
+  @return "{# rgba({{ " + $variable + "|convert_rgb }}, " + $alpha + ") #}";
+}

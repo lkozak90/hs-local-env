@@ -1,0 +1,5 @@
+dist/**/*.js
+gulpfile.js/*.js
+gulpconfig.js
+webpack.config.js
+hubl-variables.js

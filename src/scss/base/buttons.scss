@@ -1,0 +1,6 @@
+// button styles are declared as mixins in app/scss/abstracts/mixins.scss
+/*! buttons.scss */
+.cta_button,
+.cta {
+  @include cta;
+}

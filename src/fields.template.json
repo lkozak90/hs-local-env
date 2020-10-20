@@ -1,0 +1,18 @@
+[
+    {
+        "name": "font",
+        "default": "'Helvetica', sans-serif"
+    },
+    {
+        "name": "globalFontSize",
+        "default": 16
+    },
+    {
+        "name": "h1FontSize",
+        "default": 30
+    },
+    {
+        "name": "primaryColor",
+        "default": "#0049ff"
+    }
+]

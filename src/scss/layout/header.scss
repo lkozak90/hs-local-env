@@ -1,0 +1,6 @@
+/*! header.scss */
+.header-container-wrapper {
+  .row-fluid [class*="span"] {
+    min-height: 0;
+  }
+}

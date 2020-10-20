@@ -1,0 +1,16 @@
+@mixin cta {
+  display        : inline-block;
+  text-decoration: none;
+  box-sizing     : border-box !important;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+@mixin cta-primary {
+
+  &:hover {}
+}

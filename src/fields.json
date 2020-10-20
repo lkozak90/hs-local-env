@@ -1,0 +1,30 @@
+[
+    {
+        "name": "font",
+        "default": "'Muli', sans-serif"
+    },
+    {
+        "name": "globalFontSize",
+        "default": 16
+    },
+    {
+        "name": "h1FontSize",
+        "default": 30
+    },
+    {
+        "name": "accentLightOrange",
+        "default": "#ff8055"
+    },
+    {
+        "name": "accentOrange",
+        "default": "#f2672a"
+    },
+    {
+        "name": "accentLightBlue",
+        "default": "#2c4d7a"
+    },
+    {
+        "name": "accentBlue",
+        "default": "#0f2c52"
+    }
+]
