@@ -10,17 +10,17 @@
 
 ---
 
-This boilerplate is based on the [Hubspot Local Development Boilerplate](https://designers.hubspot.com/docs/tools/local-development). The added packages are selected by Linsey Brander & Teun Rutten.
+This boilerplate is based on the [Hubspot Local Development Boilerplate](https://designers.hubspot.com/docs/tools/local-development) and [Local environment](https://github.com/teunrutten/hubspot-boilerplate) created by Linsey Brander & Teun Rutten.
 
 ## About
 
 ---
 
-This is a starter pack for developing Hubspot projects. The project structure is:
+This is a local environemnt starter pack for developing HubSpot Themes or Standard Templates. The repository structure is:
 
 - `/src` folder for all your source files,
-- `/dist` folder that is synced with Hubspot.
-- `/dev` folder used for live preview
+- `/dist` folder that is synced with HubSpot and used for production,
+- `/dev` folder for live preview and development
 
 ### Features
 
@@ -44,7 +44,8 @@ Run `npm install` in the project root.
 
 ### 3. Setup Hubspot configuration
 
-1. https://developers.hubspot.com/docs/cms/guides/getting-started-with-local-development
+1. Instal HubSpot CLI https://developers.hubspot.com/docs/cms/guides/getting-started-with-local-development
+2. Run "hs init" and follow instructions
 
 
 ## How it works
